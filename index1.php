@@ -17,7 +17,7 @@ function mathOperation($arg1, $arg2, $operation) {
     echo "Некорректно введенная опция!";
 }
 }
-   echo mathOperation(65, 3, "/");
+    echo mathOperation(65, 3, "/");
 ?>
 
 
