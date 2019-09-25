@@ -17,5 +17,5 @@
 					return "Некорректно введенная опция!";
 	}
 	}
-	echo mathOperation(30, 3, "/");
+	echo mathOperation(15, 3, "/");
 ?>
