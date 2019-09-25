@@ -8,8 +8,8 @@ switch($operation) {
     return $arg1-$arg2;
     break;
   case "*":
-	  return $arg1*$arg2;
-	  break;
+    return $arg1*$arg2;
+    break;
   case "/":
 	  return $arg1/$arg2;
 	  break;
