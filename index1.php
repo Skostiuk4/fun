@@ -1,5 +1,4 @@
 <?php
-		//function multiplex
 function mathOperation($arg1, $arg2, $operation) {
 	switch($operation) {
 	case "+":
