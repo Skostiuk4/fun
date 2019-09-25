@@ -1,4 +1,4 @@
-	<?php
+<?php
 	function mathOperation($arg1, $arg2, $operation) {
 	  switch($operation){
 	  case "+":
@@ -18,4 +18,4 @@
 	}
 	}
 	echo mathOperation(30, 3, "/");
-	?>
+?>
