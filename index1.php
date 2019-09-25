@@ -1,6 +1,6 @@
 <?php
 function mathOperation($arg1, $arg2, $operation) {
-switch($operation) {
+switch($operation){
   case "+":
     return $arg1+$arg2;
     break;
@@ -17,7 +17,7 @@ switch($operation) {
 	  echo "Некорректно введенная опция!";
 }
 }
-	  echo mathOperation(15, 3, "/");
+	  echo mathOperation(45, 3, "/");
 ?>
 
 
