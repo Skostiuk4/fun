@@ -14,7 +14,7 @@ function mathOperation($arg1, $arg2, $operation) {
     return $arg1/$arg2;
     break;
   default:
-    echo "Некорректно введенная опция!";
+    return "Некорректно введенная опция!";
 }
 }
 echo mathOperation(30, 3, "/");
