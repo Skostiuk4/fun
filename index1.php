@@ -14,16 +14,18 @@ function mathOperation($arg1, $arg2, $operation) {
     case "/":
       return $arg1 / $arg2;
       break;
-    default:
-      return 'Некорректно введенная опция!';
+    case 'rand'();
+      return rand(10, 100);    
       break;
-
+      return 'Некорректно введенная опция!';
+    default:
   }
 }
 
 echo mathOperation(15, 3, "/");
-    $min=1;
-    $max=20;
-echo mt_rand($min,$max);
+echo "<pre>";
+print_r(rand(10, 100));
+echo "<pre>";
+    
 
 ?>
